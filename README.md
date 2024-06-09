@@ -2,12 +2,13 @@
 
 1)Clone the Frappe HR Application Repository:
 
-git clone https://github.com/frappe/hrms
-cd hrms
+. git clone https://github.com/frappe/hrms
+. cd hrms
 
-docker build -t your-dockerhub-username/hrms:1.0.0 .
-docker login
-docker push your-dockerhub-username/hrms:1.0.0
+. docker build -t your-dockerhub-username/hrms:1.0.0 .
+. docker login
+. docker push your-dockerhub-username/hrms:1.0.0
+. docker-compose up --build
 __________________________________________________________________________________________________________________________________________________________________
 2)Clone the Frappe Helm repository:
 
